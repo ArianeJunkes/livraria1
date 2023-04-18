@@ -13,4 +13,4 @@ class EditoraViewSet(ModelViewSet):
 
 class AutorViewSet(ModelViewSet):
     queryset = Autor.objects.all()
-    serializer_class = AutorSerializer
+    serializer_class = AutorSerializer 
